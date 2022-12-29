@@ -15,30 +15,30 @@ export default function Home() {
       <div>
         <div className="main">
           <div className="landing w-screen h-screen flex-col flex items-center justify-center bg-[url(https://img.freepik.com/free-vector/hand-drawn-minimal-background_23-2149017896.jpg?w=996&t=st=1671991157~exp=1671991757~hmac=db41c0b2cfdcc5048148d23ddbe525f69db785f9a3c6d7574d683644defda41c)] bg-cover">
-            <h1 className='text-9xl font-semibold text-[#5a2776]'>Need A Tution ?</h1>
-            <h2 className='my-5  text-xl w-[60vw] text-center'>With Personal Assistance - Doubt Solving - ExtraTime - No Leaves - And More Benifts At Low Cost - Everything At One Place For Every Class And Subject</h2>
+            <h1 className='lg:text-9xl text-6xl font-semibold text-center text-[#5a2776]'>Need A Tution ?</h1>
+            <h2 className='my-5 sm:text-xl text-lg w-[60vw] text-center'>With Personal Assistance - Doubt Solving - ExtraTime - No Leaves - And More Benifts At Low Cost - Everything At One Place For Every Class And Subject</h2>
           </div>
           <div className="whyus my-10 w-screen h-screen flex-col flex items-center justify-center">
-            <h2 className='text-6xl'>Send Your Child And See The Improvement</h2>
+            <h2 className='lg:text-6xl text-4xl text-center'>Send Your Child And See The Improvement</h2>
             <p className='w-[60vw] my-5 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo provident maiores nisi iste dolore debitis eum dolores, laborum vitae magni ea et tenetur ab, commodi ipsam, repudiandae unde! Reprehenderit corporis quam velit quod aut.</p>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuw73B2JTDysTXxwpvJFa6QbCNowYZehjGpA&usqp=CAU"
-              className='w-96 my-10 p-10 rounded-xl shadow-[20px_20px_0_#f90588]'   alt="" />
+              className='sm:w-96 w-[80vw] my-10 p-10 rounded-xl shadow-[20px_20px_0_#f90588]'   alt="" />
           </div>
           <div className="difference my-10 w-screen h-screen flex-col flex items-center justify-center">
-            <h1 className='text-6xl'>Why We Made A Difference ?</h1>
+            <h1 className='lg:text-6xl text-4xl text-center'>Why We Made A Difference ?</h1>
             <p className='w-[60vw] my-5 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo provident maiores nisi iste dolore debitis eum dolores, laborum vitae magni ea et tenetur ab, commodi ipsam, repudiandae unde! Reprehenderit corporis quam velit quod aut.</p>
-            <div className="cards container bg-[#f90588] h-[300px] my-10 rounded-xl flex justify-center">
-              <div className="card bg-white w-1/4 h-[400px] rounded-xl shadow-2xl mt-20 mx-10 flex flex-col items-center justify-center">
+            <div className="cards w-[90vw] sm:container bg-[#f90588] lg:h-[300px] lg:py-0 py-10 my-10 rounded-xl flex justify-center flex-wrap ">
+              <div className="card bg-white lg:w-1/4 w-[300px] lg:h-[400px] rounded-xl mt-5 shadow-2xl lg:mt-20 mx-10 flex flex-col items-center justify-center">
                 <h1 className='text-3xl uppercase font-bold text-[#5a2776] text-center my-10'>All Subjects</h1>
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/175/498/small_2x/school-subjects-icons-set-free-vector.jpg" className='w-[80%] rounded-xl' alt="" />
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/175/498/small_2x/school-subjects-icons-set-free-vector.jpg" className='lg:inline hidden w-[80%] rounded-xl' alt="" />
               </div>
-              <div className="card bg-white w-1/4 h-[400px] rounded-xl shadow-2xl mt-20 mx-10 flex flex-col items-center justify-center">
+              <div className="card bg-white lg:w-1/4 w-[300px] lg:h-[400px] rounded-xl mt-5 shadow-2xl lg:mt-20 mx-10 flex flex-col items-center justify-center">
                 <h1 className='text-3xl uppercase font-bold text-[#5a2776] text-center my-10'>PYQs DPPs Tests</h1>
-                <img src="https://icons.veryicon.com/png/o/miscellaneous/ecological-desktop-icon-library/test-11.png" className='w-[80%] rounded-xl' alt="" />
+                <img src="https://icons.veryicon.com/png/o/miscellaneous/ecological-desktop-icon-library/test-11.png" className='lg:inline hidden w-[80%] rounded-xl' alt="" />
               </div>
-              <div className="card bg-white w-1/4 h-[400px] rounded-xl shadow-2xl mt-20 mx-10 flex flex-col items-center justify-center">
+              <div className="card bg-white lg:w-1/4 w-[300px] lg:h-[400px] rounded-xl mt-5 shadow-2xl lg:mt-20 mx-10 flex flex-col items-center justify-center">
                 <h1 className='text-3xl uppercase font-bold text-[#5a2776] text-center my-10'>Extra Classes</h1>
-                <img src="https://cdni.iconscout.com/illustration/premium/thumb/student-studying-in-classroom-4036137-3345618.png" className='w-[80%] rounded-xl' alt="" />
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/student-studying-in-classroom-4036137-3345618.png" className='lg:inline hidden w-[80%] rounded-xl' alt="" />
               </div>
             </div>
           </div>
@@ -94,19 +94,19 @@ export default function Home() {
                 <div className="flex flex-wrap -m-2">
                   <div className="p-2 w-1/2">
                     <div className="relative">
-                      <label for="name" className="leading-7 text-sm text-gray-600">Name</label>
+                      <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
                       <input type="text" id="name" name="name" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                   </div>
                   <div className="p-2 w-1/2">
                     <div className="relative">
-                      <label for="email" className="leading-7 text-sm text-gray-600">Email</label>
+                      <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
                       <input type="email" id="email" name="email" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
                     </div>
                   </div>
                   <div className="p-2 w-full">
                     <div className="relative">
-                      <label for="message" className="leading-7 text-sm text-gray-600">Address</label>
+                      <label htmlFor="message" className="leading-7 text-sm text-gray-600">Address</label>
                       <textarea id="message" name="message" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-pink-500 focus:bg-white focus:ring-2 focus:ring-pink-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
                   </div>
